@@ -58,11 +58,6 @@ require "nav_bar.php";
                         <input type="password" class="form-control" id="password2">
                     </div>
                 </div>
-                <div class="form-group">
-                    <div class="checkbox">
-                        <label><input type="checkbox" value="agree">I agree to terms and conditions</label>
-                    </div>
-                </div>
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
         </div>

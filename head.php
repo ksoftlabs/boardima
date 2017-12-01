@@ -5,6 +5,7 @@
  * Date: 11/26/2017
  * Time: 4:52 PM
  */
+session_start();
 ?>
 <html>
     <head>
