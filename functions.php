@@ -81,3 +81,40 @@ function user_login($u_email,$pass){
     }
 
 }
+
+function load_user_details($id){
+    require "connect.php";
+    $sql="SELECT user_firstname,user_surname,user_email,user_phone,user_address FROM user WHERE user_id='$id'";
+
+    if (mysqli_query($conn, $sql)) {
+        $result=$conn->query($sql);
+    } else {
+
+        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+    $row = $result->fetch_array(MYSQLI_ASSOC);
+    return array("fname"=>$row['user_firstname'],"sname"=>$row['user_surname'],"email"=>$row['user_email'],"phone"=>$row['user_phone'],"address"=>$row['user_address']);
+}
+
+function load_my_ads($id){
+    require "connect.php";
+    $sql="SELECT ad_id,ad";
+}
+
+function create_ad($userid,$ad_title,$ad_description,$ad_img1,$ad_city,$ad_district,
+        $ad_type,$ad_gender,$ad_key_money,$ad_rent,$ad_negotiable,$ad_occupation,
+        $ad_uni1,$ad_uni2,$ad_distance1,$ad_distance2,$ad_route1,$ad_route2,$ad_occupants){
+    require "connect.php";
+
+    $sql="INSERT INTO ad (user_user_id, ad_title, ad_description, ad_imgcount, ad_city, ad_district, ad_type, ad_gender, ad_keymoney, ad_rent, ad_occupation, ad_uni1, ad_uni2, ad_distance1, ad_distance2, ad_route1, ad_route2, ad_occupants) VALUES ('$userid','$ad_title','$ad_description','1','$ad_city','$ad_district',
+        '$ad_type','$ad_gender','$ad_key_money','$ad_rent','$ad_negotiable','$ad_occupation',
+        '$ad_uni1','$ad_uni2','$ad_distance1','$ad_distance2','$ad_route1','$ad_route2','$ad_occupants')";
+
+
+    if (mysqli_query($conn, $sql)) {
+        echo "<span class='text-center' >User Added Successfully</span>";
+    } else {
+
+        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+}
