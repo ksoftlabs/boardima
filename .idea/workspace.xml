@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3ee554e-baa6-49e5-9e61-43765c674b4a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create_ad.php" afterPath="$PROJECT_DIR$/create_ad.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile.php" afterPath="$PROJECT_DIR$/profile.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view_ad.php" afterPath="$PROJECT_DIR$/view_ad.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,60 +51,53 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+            <state relative-caret-position="468">
+              <caret line="192" column="16" lean-forward="false" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="16" />
               <folding>
-                <marker date="1512319561176" expanded="true" signature="1032:1195" ph="INSERT INTO user... " />
-                <marker date="1512319561176" expanded="true" signature="1547:1621" ph="SELECT * FRO... user" />
-                <marker date="1512319561176" expanded="true" signature="2284:2383" ph="SELECT user_... user" />
-                <marker date="1512319561176" expanded="true" signature="3110:3631" ph="INSERT INTO ad... " />
-                <marker date="1512319561176" expanded="true" signature="3900:3948" ph="SELECT DISTI... ad" />
-                <marker date="1512319561176" expanded="true" signature="4544:4610" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="4544:4638" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="4544:4642" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="4544:4643" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="4544:4662" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="4544:4666" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="4544:4682" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="4544:4686" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="4544:4706" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="4544:4707" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="4544:4719" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="4544:4720" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="4544:4732" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="4544:4749" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="4544:4750" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="4544:4763" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="4544:4804" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="4806:5049" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="4814:4880" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="4814:5049" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="4927:4971" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="5485:5522" ph="SELECT * FRO... ad" />
-                <marker date="1512319561176" expanded="true" signature="5843:5894" ph="SELECT ad_id... ad" />
-                <marker date="1512319561176" expanded="true" signature="5843:5917" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="1032:1195" ph="INSERT INTO user... " />
+                <marker date="1512326765728" expanded="true" signature="1547:1621" ph="SELECT * FRO... user" />
+                <marker date="1512326765728" expanded="true" signature="2284:2383" ph="SELECT user_... user" />
+                <marker date="1512326765728" expanded="true" signature="3110:3631" ph="INSERT INTO ad... " />
+                <marker date="1512326765728" expanded="true" signature="3900:3948" ph="SELECT DISTI... ad" />
+                <marker date="1512326765728" expanded="true" signature="4544:4610" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="4544:4638" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="4544:4642" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="4544:4643" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="4544:4662" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="4544:4666" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="4544:4682" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="4544:4686" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="4544:4706" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="4544:4707" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="4544:4719" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="4544:4720" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="4544:4732" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="4544:4749" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="4544:4750" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="4544:4763" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="4544:4804" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="4806:5049" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="4814:4880" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="4814:5049" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="4927:4971" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="5485:5522" ph="SELECT * FRO... ad" />
+                <marker date="1512326765728" expanded="true" signature="5822:5859" ph="SELECT * FRO... ad" />
+                <marker date="1512326765728" expanded="true" signature="6113:6146" ph="SELECT * FRO... user" />
+                <marker date="1512326765728" expanded="true" signature="6113:6155" ph="SELECT * FRO... user" />
+                <marker date="1512326765728" expanded="true" signature="6481:6532" ph="SELECT ad_id... ad" />
+                <marker date="1512326765728" expanded="true" signature="6481:6555" ph="SELECT ad_id... ad" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="access_control.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/access_control.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create_ad.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="create_ad.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/create_ad.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="77" column="4" lean-forward="true" selection-start-line="77" selection-start-column="4" selection-end-line="82" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="3" />
               <folding>
-                <marker date="1512309515926" expanded="true" signature="6562:6582" ph="..." />
+                <marker date="1512327025228" expanded="true" signature="6811:6831" ph="..." />
               </folding>
             </state>
           </provider>
@@ -131,7 +123,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="profile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="321">
@@ -154,8 +146,8 @@
       <file leaf-file-name="view_ad.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view_ad.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="298">
+              <caret line="145" column="8" lean-forward="false" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -187,12 +179,12 @@
         <option value="$PROJECT_DIR$/sign-in.php" />
         <option value="$PROJECT_DIR$/access_control.php" />
         <option value="$PROJECT_DIR$/head.php" />
-        <option value="$PROJECT_DIR$/create_ad.php" />
         <option value="$PROJECT_DIR$/nav_bar.php" />
-        <option value="$PROJECT_DIR$/view_ad.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/profile.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/view_ad.php" />
+        <option value="$PROJECT_DIR$/create_ad.php" />
       </list>
     </option>
   </component>
@@ -317,12 +309,12 @@
       <workItem from="1512060638921" duration="2840000" />
       <workItem from="1512106608603" duration="19035000" />
       <workItem from="1512197025162" duration="12080000" />
-      <workItem from="1512275893210" duration="21895000" />
+      <workItem from="1512275893210" duration="23268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74252000" />
+    <option name="totallyTimeSpent" value="75625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -364,35 +356,38 @@
         <state relative-caret-position="102">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
-            <marker date="1512319561176" expanded="true" signature="1032:1195" ph="INSERT INTO user... " />
-            <marker date="1512319561176" expanded="true" signature="1547:1621" ph="SELECT * FRO... user" />
-            <marker date="1512319561176" expanded="true" signature="2284:2383" ph="SELECT user_... user" />
-            <marker date="1512319561176" expanded="true" signature="3110:3631" ph="INSERT INTO ad... " />
-            <marker date="1512319561176" expanded="true" signature="3900:3948" ph="SELECT DISTI... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4610" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4638" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4642" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4643" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4662" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4666" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4682" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4686" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4706" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4707" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4719" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4720" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4732" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4749" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4750" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4763" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4804" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4806:5049" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4814:4880" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4814:5049" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4927:4971" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="5485:5522" ph="SELECT * FRO... ad" />
-            <marker date="1512319561176" expanded="true" signature="5843:5894" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="5843:5917" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="1032:1195" ph="INSERT INTO user... " />
+            <marker date="1512326765728" expanded="true" signature="1547:1621" ph="SELECT * FRO... user" />
+            <marker date="1512326765728" expanded="true" signature="2284:2383" ph="SELECT user_... user" />
+            <marker date="1512326765728" expanded="true" signature="3110:3631" ph="INSERT INTO ad... " />
+            <marker date="1512326765728" expanded="true" signature="3900:3948" ph="SELECT DISTI... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4610" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4638" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4642" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4643" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4662" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4666" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4682" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4686" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4706" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4707" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4719" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4720" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4732" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4749" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4750" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4763" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4804" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4806:5049" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4814:4880" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4814:5049" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4927:4971" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="5485:5522" ph="SELECT * FRO... ad" />
+            <marker date="1512326765728" expanded="true" signature="5822:5859" ph="SELECT * FRO... ad" />
+            <marker date="1512326765728" expanded="true" signature="6113:6146" ph="SELECT * FRO... user" />
+            <marker date="1512326765728" expanded="true" signature="6113:6155" ph="SELECT * FRO... user" />
+            <marker date="1512326765728" expanded="true" signature="6481:6532" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="6481:6555" ph="SELECT ad_id... ad" />
           </folding>
         </state>
       </provider>
@@ -458,7 +453,7 @@
         <state relative-caret-position="204">
           <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding>
-            <marker date="1512309515926" expanded="true" signature="6562:6582" ph="..." />
+            <marker date="1512327025228" expanded="true" signature="6811:6831" ph="..." />
           </folding>
         </state>
       </provider>
@@ -468,35 +463,38 @@
         <state relative-caret-position="102">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
-            <marker date="1512319561176" expanded="true" signature="1032:1195" ph="INSERT INTO user... " />
-            <marker date="1512319561176" expanded="true" signature="1547:1621" ph="SELECT * FRO... user" />
-            <marker date="1512319561176" expanded="true" signature="2284:2383" ph="SELECT user_... user" />
-            <marker date="1512319561176" expanded="true" signature="3110:3631" ph="INSERT INTO ad... " />
-            <marker date="1512319561176" expanded="true" signature="3900:3948" ph="SELECT DISTI... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4610" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4638" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4642" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4643" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4662" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4666" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4682" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4686" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4706" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4707" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4719" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4720" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4732" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4749" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4750" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4763" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4804" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4806:5049" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4814:4880" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4814:5049" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4927:4971" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="5485:5522" ph="SELECT * FRO... ad" />
-            <marker date="1512319561176" expanded="true" signature="5843:5894" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="5843:5917" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="1032:1195" ph="INSERT INTO user... " />
+            <marker date="1512326765728" expanded="true" signature="1547:1621" ph="SELECT * FRO... user" />
+            <marker date="1512326765728" expanded="true" signature="2284:2383" ph="SELECT user_... user" />
+            <marker date="1512326765728" expanded="true" signature="3110:3631" ph="INSERT INTO ad... " />
+            <marker date="1512326765728" expanded="true" signature="3900:3948" ph="SELECT DISTI... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4610" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4638" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4642" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4643" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4662" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4666" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4682" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4686" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4706" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4707" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4719" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4720" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4732" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4749" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4750" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4763" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4804" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4806:5049" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4814:4880" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4814:5049" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4927:4971" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="5485:5522" ph="SELECT * FRO... ad" />
+            <marker date="1512326765728" expanded="true" signature="5822:5859" ph="SELECT * FRO... ad" />
+            <marker date="1512326765728" expanded="true" signature="6113:6146" ph="SELECT * FRO... user" />
+            <marker date="1512326765728" expanded="true" signature="6113:6155" ph="SELECT * FRO... user" />
+            <marker date="1512326765728" expanded="true" signature="6481:6532" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="6481:6555" ph="SELECT ad_id... ad" />
           </folding>
         </state>
       </provider>
@@ -562,35 +560,38 @@
         <state relative-caret-position="102">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
-            <marker date="1512319561176" expanded="true" signature="1032:1195" ph="INSERT INTO user... " />
-            <marker date="1512319561176" expanded="true" signature="1547:1621" ph="SELECT * FRO... user" />
-            <marker date="1512319561176" expanded="true" signature="2284:2383" ph="SELECT user_... user" />
-            <marker date="1512319561176" expanded="true" signature="3110:3631" ph="INSERT INTO ad... " />
-            <marker date="1512319561176" expanded="true" signature="3900:3948" ph="SELECT DISTI... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4610" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4638" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4642" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4643" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4662" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4666" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4682" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4686" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4706" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4707" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4719" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4720" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4732" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4749" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4750" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4763" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4804" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4806:5049" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4814:4880" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4814:5049" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4927:4971" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="5485:5522" ph="SELECT * FRO... ad" />
-            <marker date="1512319561176" expanded="true" signature="5843:5894" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="5843:5917" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="1032:1195" ph="INSERT INTO user... " />
+            <marker date="1512326765728" expanded="true" signature="1547:1621" ph="SELECT * FRO... user" />
+            <marker date="1512326765728" expanded="true" signature="2284:2383" ph="SELECT user_... user" />
+            <marker date="1512326765728" expanded="true" signature="3110:3631" ph="INSERT INTO ad... " />
+            <marker date="1512326765728" expanded="true" signature="3900:3948" ph="SELECT DISTI... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4610" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4638" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4642" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4643" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4662" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4666" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4682" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4686" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4706" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4707" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4719" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4720" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4732" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4749" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4750" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4763" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4804" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4806:5049" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4814:4880" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4814:5049" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4927:4971" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="5485:5522" ph="SELECT * FRO... ad" />
+            <marker date="1512326765728" expanded="true" signature="5822:5859" ph="SELECT * FRO... ad" />
+            <marker date="1512326765728" expanded="true" signature="6113:6146" ph="SELECT * FRO... user" />
+            <marker date="1512326765728" expanded="true" signature="6113:6155" ph="SELECT * FRO... user" />
+            <marker date="1512326765728" expanded="true" signature="6481:6532" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="6481:6555" ph="SELECT ad_id... ad" />
           </folding>
         </state>
       </provider>
@@ -656,35 +657,38 @@
         <state relative-caret-position="102">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
-            <marker date="1512319561176" expanded="true" signature="1032:1195" ph="INSERT INTO user... " />
-            <marker date="1512319561176" expanded="true" signature="1547:1621" ph="SELECT * FRO... user" />
-            <marker date="1512319561176" expanded="true" signature="2284:2383" ph="SELECT user_... user" />
-            <marker date="1512319561176" expanded="true" signature="3110:3631" ph="INSERT INTO ad... " />
-            <marker date="1512319561176" expanded="true" signature="3900:3948" ph="SELECT DISTI... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4610" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4638" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4642" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4643" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4662" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4666" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4682" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4686" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4706" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4707" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4719" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4720" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4732" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4749" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4750" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4763" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4804" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4806:5049" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4814:4880" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4814:5049" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4927:4971" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="5485:5522" ph="SELECT * FRO... ad" />
-            <marker date="1512319561176" expanded="true" signature="5843:5894" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="5843:5917" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="1032:1195" ph="INSERT INTO user... " />
+            <marker date="1512326765728" expanded="true" signature="1547:1621" ph="SELECT * FRO... user" />
+            <marker date="1512326765728" expanded="true" signature="2284:2383" ph="SELECT user_... user" />
+            <marker date="1512326765728" expanded="true" signature="3110:3631" ph="INSERT INTO ad... " />
+            <marker date="1512326765728" expanded="true" signature="3900:3948" ph="SELECT DISTI... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4610" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4638" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4642" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4643" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4662" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4666" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4682" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4686" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4706" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4707" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4719" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4720" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4732" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4749" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4750" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4763" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4804" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4806:5049" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4814:4880" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4814:5049" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4927:4971" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="5485:5522" ph="SELECT * FRO... ad" />
+            <marker date="1512326765728" expanded="true" signature="5822:5859" ph="SELECT * FRO... ad" />
+            <marker date="1512326765728" expanded="true" signature="6113:6146" ph="SELECT * FRO... user" />
+            <marker date="1512326765728" expanded="true" signature="6113:6155" ph="SELECT * FRO... user" />
+            <marker date="1512326765728" expanded="true" signature="6481:6532" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="6481:6555" ph="SELECT ad_id... ad" />
           </folding>
         </state>
       </provider>
@@ -726,35 +730,38 @@
         <state relative-caret-position="102">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
-            <marker date="1512319561176" expanded="true" signature="1032:1195" ph="INSERT INTO user... " />
-            <marker date="1512319561176" expanded="true" signature="1547:1621" ph="SELECT * FRO... user" />
-            <marker date="1512319561176" expanded="true" signature="2284:2383" ph="SELECT user_... user" />
-            <marker date="1512319561176" expanded="true" signature="3110:3631" ph="INSERT INTO ad... " />
-            <marker date="1512319561176" expanded="true" signature="3900:3948" ph="SELECT DISTI... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4610" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4638" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4642" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4643" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4662" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4666" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4682" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4686" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4706" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4707" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4719" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4720" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4732" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4749" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4750" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4763" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4804" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4806:5049" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4814:4880" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4814:5049" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4927:4971" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="5485:5522" ph="SELECT * FRO... ad" />
-            <marker date="1512319561176" expanded="true" signature="5843:5894" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="5843:5917" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="1032:1195" ph="INSERT INTO user... " />
+            <marker date="1512326765728" expanded="true" signature="1547:1621" ph="SELECT * FRO... user" />
+            <marker date="1512326765728" expanded="true" signature="2284:2383" ph="SELECT user_... user" />
+            <marker date="1512326765728" expanded="true" signature="3110:3631" ph="INSERT INTO ad... " />
+            <marker date="1512326765728" expanded="true" signature="3900:3948" ph="SELECT DISTI... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4610" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4638" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4642" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4643" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4662" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4666" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4682" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4686" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4706" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4707" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4719" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4720" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4732" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4749" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4750" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4763" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4804" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4806:5049" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4814:4880" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4814:5049" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4927:4971" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="5485:5522" ph="SELECT * FRO... ad" />
+            <marker date="1512326765728" expanded="true" signature="5822:5859" ph="SELECT * FRO... ad" />
+            <marker date="1512326765728" expanded="true" signature="6113:6146" ph="SELECT * FRO... user" />
+            <marker date="1512326765728" expanded="true" signature="6113:6155" ph="SELECT * FRO... user" />
+            <marker date="1512326765728" expanded="true" signature="6481:6532" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="6481:6555" ph="SELECT ad_id... ad" />
           </folding>
         </state>
       </provider>
@@ -878,62 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/create_ad.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="77" column="4" lean-forward="true" selection-start-line="77" selection-start-column="4" selection-end-line="82" selection-end-column="5" />
-          <folding>
-            <marker date="1512309515926" expanded="true" signature="6562:6582" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view_ad.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding>
-            <marker date="1512319561176" expanded="true" signature="1032:1195" ph="INSERT INTO user... " />
-            <marker date="1512319561176" expanded="true" signature="1547:1621" ph="SELECT * FRO... user" />
-            <marker date="1512319561176" expanded="true" signature="2284:2383" ph="SELECT user_... user" />
-            <marker date="1512319561176" expanded="true" signature="3110:3631" ph="INSERT INTO ad... " />
-            <marker date="1512319561176" expanded="true" signature="3900:3948" ph="SELECT DISTI... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4610" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4638" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4642" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4643" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4662" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4666" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4682" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4686" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4706" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4707" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4719" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4720" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4732" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4749" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4750" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4763" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4544:4804" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4806:5049" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4814:4880" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4814:5049" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="4927:4971" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="5485:5522" ph="SELECT * FRO... ad" />
-            <marker date="1512319561176" expanded="true" signature="5843:5894" ph="SELECT ad_id... ad" />
-            <marker date="1512319561176" expanded="true" signature="5843:5917" ph="SELECT ad_id... ad" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -947,6 +898,65 @@
         <state relative-caret-position="321">
           <caret line="78" column="56" lean-forward="false" selection-start-line="78" selection-start-column="56" selection-end-line="78" selection-end-column="56" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="192" column="16" lean-forward="false" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="16" />
+          <folding>
+            <marker date="1512326765728" expanded="true" signature="1032:1195" ph="INSERT INTO user... " />
+            <marker date="1512326765728" expanded="true" signature="1547:1621" ph="SELECT * FRO... user" />
+            <marker date="1512326765728" expanded="true" signature="2284:2383" ph="SELECT user_... user" />
+            <marker date="1512326765728" expanded="true" signature="3110:3631" ph="INSERT INTO ad... " />
+            <marker date="1512326765728" expanded="true" signature="3900:3948" ph="SELECT DISTI... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4610" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4638" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4642" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4643" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4662" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4666" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4682" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4686" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4706" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4707" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4719" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4720" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4732" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4749" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4750" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4763" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4544:4804" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4806:5049" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4814:4880" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4814:5049" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="4927:4971" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="5485:5522" ph="SELECT * FRO... ad" />
+            <marker date="1512326765728" expanded="true" signature="5822:5859" ph="SELECT * FRO... ad" />
+            <marker date="1512326765728" expanded="true" signature="6113:6146" ph="SELECT * FRO... user" />
+            <marker date="1512326765728" expanded="true" signature="6113:6155" ph="SELECT * FRO... user" />
+            <marker date="1512326765728" expanded="true" signature="6481:6532" ph="SELECT ad_id... ad" />
+            <marker date="1512326765728" expanded="true" signature="6481:6555" ph="SELECT ad_id... ad" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view_ad.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="145" column="8" lean-forward="false" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_ad.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="3" />
+          <folding>
+            <marker date="1512327025228" expanded="true" signature="6811:6831" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

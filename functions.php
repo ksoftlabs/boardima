@@ -168,6 +168,31 @@ function get_ad_details($ad_id){
     return $row;
 }
 
+function get_user_details($ad_id){
+    require "connect.php";
+    $sql="SELECT * FROM ad WHERE ad_id='$ad_id'";
+    if (mysqli_query($conn, $sql)) {
+        $result = $conn->query($sql);
+    } else {
+
+        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+
+    $row = $result->fetch_array(MYSQLI_ASSOC);
+
+    $userid=$row['user_user_id'];
+    $sql2="SELECT * FROM user WHERE user_id='$userid'";
+    if (mysqli_query($conn, $sql2)) {
+        $result = $conn->query($sql2);
+    } else {
+
+        echo "Error: " . $sql2 . "<br>" . mysqli_error($conn);
+    }
+
+    $row2 = $result->fetch_array(MYSQLI_ASSOC);
+    return $row2;
+}
+
 function show_my_ads($user_id){
     require "connect.php";
     $returnstring="";

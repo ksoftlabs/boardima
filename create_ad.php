@@ -130,6 +130,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if($ad_uni2=="none" or $ad_uni2=="dis"){
 
         }else{
+            if (empty($_POST["uni2"])) {
+//        $err_uni1= "Select at least one";
+            } else {
+                $ad_uni2 = mysqli_real_escape_string($conn,$_POST["uni2"]);
+//        $err_uni1= validate_text($ad_occupation);
+            }
+
             if($ad_distance2=""){
                 $err_distance2="Distance is required";
             }else{

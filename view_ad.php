@@ -11,7 +11,7 @@ require "head.php";
 require "nav_bar.php";
 
 $ad_details=get_ad_details($ad_id);
-
+$user_details=get_user_details($ad_id);
 ?>
 
 <div class="container">
@@ -136,13 +136,30 @@ $ad_details=get_ad_details($ad_id);
         <div class="col-md-3">
             <p><?php echo $ad_details['ad_occupants'];?></p>
         </div>
-<!--        <div class="col-md-3">-->
-<!--            <p>Route</p>-->
-<!--        </div>-->
-<!--        <div class="col-md-3">-->
-<!--            <p>138 Bus</p>-->
-<!--        </div>-->
+        <!--        <div class="col-md-3">-->
+        <!--            <p>Route</p>-->
+        <!--        </div>-->
+        <!--        <div class="col-md-3">-->
+        <!--            <p>138 Bus</p>-->
+        <!--        </div>-->
     </div>
+    <hr>
+    <div class="row">
+
+        <div class="col-md-3">
+            <p>Contact Name</p>
+        </div>
+        <div class="col-md-3">
+            <p><?php echo $user_details['user_firstname']." ".$user_details['user_surname'];?></p>
+        </div>
+        <div class="col-md-3">
+            <p>Phone</p>
+        </div>
+        <div class="col-md-3">
+            <p><?php echo $user_details['user_phone'];?></p>
+        </div>
+    </div>
+
 </div>
 
 <?php
