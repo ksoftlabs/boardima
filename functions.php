@@ -96,10 +96,6 @@ function load_user_details($id){
     return array("fname"=>$row['user_firstname'],"sname"=>$row['user_surname'],"email"=>$row['user_email'],"phone"=>$row['user_phone'],"address"=>$row['user_address']);
 }
 
-function load_my_ads($id){
-    require "connect.php";
-    $sql="SELECT ad_id,ad";
-}
 
 function create_ad($userid,$ad_title,$ad_description,$ad_imagecount,$ad_city,$ad_district,
         $ad_type,$ad_gender,$ad_key_money,$ad_rent,$ad_negotiable,$ad_occupation,
@@ -142,6 +138,10 @@ function search_boarding_place($city, $distrcit, $gender,$type,$key_min,$key_max
     $returnstring="";
 //    $sql="SELECT ad_id,ad_title,ad_description FROM ad WHERE ad_city='$city' AND ad_district='$distrcit' AND ad_gender='$gender' AND ad_type='$type' AND ad_keymoney BETWEEN $key_min AND $key_max AND ad_rent BETWEEN $rent_min AND $rent_max AND ad_occupation='$occupation'";
 $sql ="SELECT ad_id,ad_title,ad_description FROM ad WHERE ad_city='$city'";
+
+if($city=="%" or $city=="ALL"){
+    $sql ="SELECT ad_id,ad_title,ad_description FROM ad";
+}
     if (mysqli_query($conn, $sql)) {
         $result = $conn->query($sql);
     } else {
@@ -150,7 +150,40 @@ $sql ="SELECT ad_id,ad_title,ad_description FROM ad WHERE ad_city='$city'";
     }
 
     while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
-        $returnstring = $returnstring .'<div><H1>'.$row['ad_title'].'</H1><p>'.$row['ad_description'].'</p><br><a href="view_ad.php?ad_id='.$row['ad_id'].'">View Ad</a></div>';
+        $returnstring = $returnstring .'<div class="well" ><H1>'.$row['ad_title'].'</H1><p>'.$row['ad_description'].'</p><br><a href="view_ad.php?ad_id='.$row['ad_id'].'">View Ad</a></div>';
+    }
+    return $returnstring;
+}
+function get_ad_details($ad_id){
+    require "connect.php";
+    $sql="SELECT * FROM ad WHERE ad_id='$ad_id'";
+    if (mysqli_query($conn, $sql)) {
+        $result = $conn->query($sql);
+    } else {
+
+        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+
+    $row = $result->fetch_array(MYSQLI_ASSOC);
+    return $row;
+}
+
+function show_my_ads($user_id){
+    require "connect.php";
+    $returnstring="";
+
+    $sql ="SELECT ad_id,ad_title,ad_description FROM ad WHERE user_user_id='$user_id'";
+
+
+    if (mysqli_query($conn, $sql)) {
+        $result = $conn->query($sql);
+    } else {
+
+        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+
+    while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
+        $returnstring = $returnstring .'<div class="well" ><H1>'.$row['ad_title'].'</H1><p>'.$row['ad_description'].'</p><br><a href="view_ad.php?ad_id='.$row['ad_id'].'">View Ad</a></div>';
     }
     return $returnstring;
 }

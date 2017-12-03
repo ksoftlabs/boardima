@@ -76,7 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </form>
         </div>
         <div id="menu1" class="tab-pane fade">
-            <?php load_my_ads($_SESSION["userid"]) ?>
+            <?php echo show_my_ads($_SESSION["userid"]); ?>
         </div>
 
     </div>

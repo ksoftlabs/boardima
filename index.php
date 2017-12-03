@@ -10,7 +10,8 @@ require "functions.php";
 require "head.php";
 require "nav_bar.php";
 
-$city = $distrcit = $gender = $type = $key_min = $key_max = $rent_min = $rent_max = $occupation = "";
+$city ="%";
+$distrcit = $gender = $type = $key_min = $key_max = $rent_min = $rent_max = $occupation = "";
 $err_keymoney = $err_rent = "";
 $the_results="";
 
@@ -52,9 +53,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $occupation=(int)$_POST['occupation'];
 
-    if($err_rent="" and $err_keymoney=""){
-        $the_results=search_boarding_place($city, $distrcit, $gender,$type,$key_min,$key_max,$rent_min ,$rent_max ,$occupation);
-    }
+//    if($err_rent="" and $err_keymoney=""){
+//        $the_results=search_boarding_place($city, $distrcit, $gender,$type,$key_min,$key_max,$rent_min ,$rent_max ,$occupation);
+//    }
 
 
 }
