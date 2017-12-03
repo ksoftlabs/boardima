@@ -101,20 +101,56 @@ function load_my_ads($id){
     $sql="SELECT ad_id,ad";
 }
 
-function create_ad($userid,$ad_title,$ad_description,$ad_img1,$ad_city,$ad_district,
+function create_ad($userid,$ad_title,$ad_description,$ad_imagecount,$ad_city,$ad_district,
         $ad_type,$ad_gender,$ad_key_money,$ad_rent,$ad_negotiable,$ad_occupation,
-        $ad_uni1,$ad_uni2,$ad_distance1,$ad_distance2,$ad_route1,$ad_route2,$ad_occupants){
+        $ad_uni1,$ad_uni2,$ad_distance1,$ad_distance2,$ad_route1,$ad_route2,$ad_occupants,$ad_img1,$ad_img2,$ad_img3,$ad_img4,$ad_img5){
     require "connect.php";
 
-    $sql="INSERT INTO ad (user_user_id, ad_title, ad_description, ad_imgcount, ad_city, ad_district, ad_type, ad_gender, ad_keymoney, ad_rent, ad_occupation, ad_uni1, ad_uni2, ad_distance1, ad_distance2, ad_route1, ad_route2, ad_occupants) VALUES ('$userid','$ad_title','$ad_description','1','$ad_city','$ad_district',
+    $sql="INSERT INTO ad (user_user_id, ad_title, ad_description, ad_imgcount, ad_city, ad_district, ad_type, ad_gender, ad_keymoney, ad_rent, ad_negotiable,ad_occupation, ad_uni1, ad_uni2, ad_distance1, ad_distance2, ad_route1, ad_route2, ad_occupants) VALUES ('$userid','$ad_title','$ad_description','1','$ad_city','$ad_district',
         '$ad_type','$ad_gender','$ad_key_money','$ad_rent','$ad_negotiable','$ad_occupation',
         '$ad_uni1','$ad_uni2','$ad_distance1','$ad_distance2','$ad_route1','$ad_route2','$ad_occupants')";
 
 
     if (mysqli_query($conn, $sql)) {
-        echo "<span class='text-center' >User Added Successfully</span>";
+        echo "<span class='text-center' >Ad Added Successfully</span>";
+
     } else {
 
         echo "Error: " . $sql . "<br>" . mysqli_error($conn);
     }
+}
+
+function construct_city_list(){
+    require "connect.php";
+    $sql="SELECT DISTINCT ad_city FROM ad ORDER BY ad_city";
+    $returnstring="<option value=\"ALL\">ALL</option>";
+    if (mysqli_query($conn, $sql)) {
+        $result = $conn->query($sql);
+    } else {
+
+        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+
+    while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
+        $returnstring = $returnstring . "<option value='".$row['ad_city']."'>".$row['ad_city']."</option><br>";
+    }
+    echo $returnstring;
+}
+
+function search_boarding_place($city, $distrcit, $gender,$type,$key_min,$key_max,$rent_min ,$rent_max ,$occupation){
+    require "connect.php";
+    $returnstring="";
+//    $sql="SELECT ad_id,ad_title,ad_description FROM ad WHERE ad_city='$city' AND ad_district='$distrcit' AND ad_gender='$gender' AND ad_type='$type' AND ad_keymoney BETWEEN $key_min AND $key_max AND ad_rent BETWEEN $rent_min AND $rent_max AND ad_occupation='$occupation'";
+$sql ="SELECT ad_id,ad_title,ad_description FROM ad WHERE ad_city='$city'";
+    if (mysqli_query($conn, $sql)) {
+        $result = $conn->query($sql);
+    } else {
+
+        echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+
+    while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
+        $returnstring = $returnstring .'<div><H1>'.$row['ad_title'].'</H1><p>'.$row['ad_description'].'</p><br><a href="view_ad.php?ad_id='.$row['ad_id'].'">View Ad</a></div>';
+    }
+    return $returnstring;
 }
